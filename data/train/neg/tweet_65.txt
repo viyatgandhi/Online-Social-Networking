@@ -1,0 +1,1 @@
+@morind45 Because the twitter api is slow and most client's aren't good.

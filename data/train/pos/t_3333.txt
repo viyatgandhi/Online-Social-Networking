@@ -1,0 +1,1 @@
+@mortonfox Every time I see your TwitVim tweets, I feel the need to use twit.el. 

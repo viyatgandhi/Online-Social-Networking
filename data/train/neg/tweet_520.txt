@@ -1,0 +1,1 @@
+Seems jRuby support for hpricot is now two versions behind 

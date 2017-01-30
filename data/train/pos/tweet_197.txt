@@ -1,0 +1,1 @@
+@matthewcyan I finally got around to using jquery to make my bio collapse. Yay for slide animations.

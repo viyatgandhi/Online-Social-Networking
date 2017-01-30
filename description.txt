@@ -1,0 +1,49 @@
+Configuration file : twitter.cfg
+Code works on parameter set in that above configuration file.
+Below is the brief explanation of configuration
+
+"numberOfTweets" --> used by collect.py to set how many tweets to fetch in program
+
+"keywordForTweets" --> used by collect.py to set on which keyword to use for fetching tweets
+
+"clusterUserLimit" --> used by collect.py and cluster.py, for how many users you want to fetch friends/ids
+-base user info will be taken from tweets we have fetched.
+-This will parameter is also equal to initial number of nodes in graph for cluster.py
+-must be less than numberOfTweets
+
+"communities" --> used by cluster.py, to identify number of communities by partition-girvan-newman algorithm
+-must be less than clusterUserLimit value
+
+"useDataFile" --> global configuration parameter
+-if you want to use my data which is already downloaded set to "True" - so that whole program will run on my data
+-if you want to collect new data set to "False" - whole program will run on newly fetched data
+
+collect.py
+-initially tweets are collected from twitter api using a keyword configured in file.
+-tweets are fetched from unique users so no users will be repeated in fetching tweets
+-once tweets are fetched program will start fetching friends/ids - i.e. following ids
+-fetching friends/ids can take time so you can exist the program at any time and subsequent program will run on fetched data
+-friends/ids will be fetched on users configured by parameter clusterUserLimit in twitter.cfg
+-tweets info and user info are saved into pickle file
+
+cluster.py
+-user info is read from pickle file which is created by collect.py
+-graph is created using jaccard similarity as edge weight and it has threshold of 0.009
+-jaccard similarity is calculated based on how many same accounts a user follows
+-also I have removed the nodes from graph which has degree <= 2 before finding communities
+-girvan_newman algo is used for finding communities and betweenness is calculated using
+nx.edge_betweenness_centrality(graph, weight='weight') where weight is considered for finding betweenness.
+
+classify.py
+-tweets are classified into two classes Positive and Negative sentiment using a text classifier.
+-classifier is trained using already downloaded data which consist of Positive and Negative tweets and comments from imdb
+-classifier uses two features to vectorize - token_pair and affin sentiment for training and creating a vocab
+-once classifier is trained it runs on tweets which are collected in collect.py
+
+
+Steps to Execute Project :
+-please place data folder in the same directory as .py files.
+-the data folder contains training data, which consists of approx 4k positive and negative tweets.
+-mydownloadeddata contains around 500 tweets of trump and user info of 200 accounts
+-you can use my data by setting useDataFile to True in twitter.cfg - please run all 4 files starting from collect.py if this is set to True
+-data also contains affin folder which has affin txt file for pos and neg words to use in classify.py

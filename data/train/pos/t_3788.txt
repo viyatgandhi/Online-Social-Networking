@@ -1,0 +1,1 @@
+Welcome back to Serge, Twitter  Portlets are now properly recognized with Pluto 2 and Websphere, more testing needed

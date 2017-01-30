@@ -1,0 +1,1 @@
+Now I can see why Dave Winer screams about lack of Twitter API, its limitations and access throttles!

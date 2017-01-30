@@ -1,0 +1,1 @@
+I just created my first LaTeX file from scratch. That didn't work out very well. (See @amandabittner , it's a great time waster)

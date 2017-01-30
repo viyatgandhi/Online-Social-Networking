@@ -1,0 +1,1 @@
+#mmuk09 Moodle 1.x must upgrade to 1.9 before being upgraded to 2.0 - Themes will probably break though 

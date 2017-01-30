@@ -1,0 +1,1 @@
+#iphone #spotify I'm now able to run spotify on my iPhone, through a remote desktop session to my pc using Jaadu RDP. It works 

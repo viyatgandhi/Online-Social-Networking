@@ -1,0 +1,1 @@
+@rodnet  I think #PHP would be much better if they got rid of half of the functions in the language 

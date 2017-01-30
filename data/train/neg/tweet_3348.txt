@@ -1,0 +1,1 @@
+ugh.  stupid bug in SpamAssassin rule-QA backend discovered, it's going to take some fixing at some point.  adding to the TODO list 

@@ -1,0 +1,1 @@
+Added the DNS system, compatibility is okay and am looking forward to the possibilities now open. But I need to rework the intro sequence 

@@ -1,0 +1,22 @@
+No need to collect data as useDataFile is set to true in twitter.cfg
+we will use already generated data files - collect.py - mytweets.pkl and myusers.pkl
+if you still want to run collect.py please set useDataFile to true in twitter.cfg
+keyword data in tweets: cubs
+
+as internalData is set to true we will read from my users file: myusers.pkl from data/mydownloadeddata
+Removed 40 nodes from graph as they had less than 1 degree to reduce clutter in graph
+Also edge weight threshold is set to 0.009 to reduce clutter in graph
+Total communities to identify are: 10
+Graph has 160 nodes and 2599 edges
+Total edges removed by girvan_newman algo from graph are: 103
+Average number of users per community :16.0
+
+As internalData is set to True we will use tweets in file mytweets.pkl
+getting unique tweets from pickle file
+found 348 unique tweets from file
+forming pos and neg word list from affin sentiment file
+Total pos words are 878
+Total neg words are 1598
+Reading and fitting train data
+Length of vocab is 20285
+Number of pos and neg tweets: Counter({1: 277, 0: 71})

@@ -1,0 +1,1 @@
+Loves what #drupal file framework module could do, but is sick of Bitcache errors making it impossible to upload files 

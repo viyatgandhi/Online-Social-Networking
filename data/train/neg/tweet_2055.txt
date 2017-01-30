@@ -1,0 +1,1 @@
+It is just me. Uninstalled #rails 2.3.2 and tried with a fresh 2.2.2 app - still no dice. Obviously something bizarre in my setup 

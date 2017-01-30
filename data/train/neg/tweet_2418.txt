@@ -1,0 +1,1 @@
+@adamcurry is it possible to add another stream option that uses the regular 8080/80 port? I can't stream noagenda because of fw/proxy 

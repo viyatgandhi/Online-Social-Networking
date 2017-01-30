@@ -1,0 +1,1 @@
+@alexpuig PHPTAL of course  I don't like mixing 2 types of syntax and having to remember to escape variables. OPT2 looks good too.

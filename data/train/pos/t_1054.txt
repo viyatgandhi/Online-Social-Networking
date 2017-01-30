@@ -1,0 +1,1 @@
+/nickserv register izon 123456 xxx@gmail.com  re: http://ff.im/1XVdh

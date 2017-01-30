@@ -1,0 +1,1 @@
+working on words next to the friendly AIR install button to reassure user that scary install dialog is ok (certificate is not enough) 

@@ -1,0 +1,1 @@
+@jessewilson I just wasted 2 hours, when all I needed was that null  Thanks heaps - it works perfectly now.

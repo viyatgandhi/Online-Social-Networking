@@ -1,0 +1,1 @@
+@Pictcom Site doesn't work with Google Chrome v 2.0.169.1. None of the upload buttons/links work. Please fix? Thanks 

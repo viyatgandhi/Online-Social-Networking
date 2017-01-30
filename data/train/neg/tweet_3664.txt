@@ -1,0 +1,1 @@
+@TweetDeck Can you not become a seperate program rather than use AIR? AIR is awful and this RAM leakage is bloody annoying! 

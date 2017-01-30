@@ -1,0 +1,1 @@
+To transcode a 100MB .wmv to a 100MB .flv file without loss of quality - possible, or not?  Anyone know?  Everything I try is terrible 

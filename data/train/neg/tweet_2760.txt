@@ -1,0 +1,1 @@
+@latexfetish Sadly that's not a feed  For Wordpress a feed usually would be bla.com/feed/ or bla.com/?feed=rss2, but those two don't exist

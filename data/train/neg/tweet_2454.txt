@@ -1,0 +1,1 @@
+@andygosling ouch  zoom:1 and the clearfix method are your friends.

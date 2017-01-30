@@ -1,0 +1,1 @@
+I'm reading some more of Agile Principales, Patterns and Prictices in C#, it's quite a good read actually it flows quite well so far 

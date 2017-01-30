@@ -1,0 +1,8 @@
+Number of users collected: 573 
+Number of messages collected: 573 
+Number of communities discovered: 10
+Average number of users per community: 16.0 
+Number of instances per class found: positive tweets: 277 negative tweets:71
+One example from each class:
+positive tweet: RT @MonettCubsFB: Cubs move to 13-1. Headed to play for the STATE CHAMPIONSHIP!!! #letsgo #together #rock https://t.co/tTyQXeB5ek 
+negative tweet: RT @ualbertaScience: ICYMI: Grizzly cubs learn bad behaviour from mother bear, #UAlberta Andrea Morehouse- https://t.co/s00VcWhrnH via @Cdn

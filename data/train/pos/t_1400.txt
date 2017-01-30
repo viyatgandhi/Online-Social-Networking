@@ -1,0 +1,1 @@
+Perl's CPAN installer has lots of quirky humour which is fun but I just want to get the job done. I prefer quiet tools; funny docs are OK 

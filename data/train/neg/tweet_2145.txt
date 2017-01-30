@@ -1,0 +1,1 @@
+just found that if I use Windows 7 to browse twitter.com, the firewall software will automatically turns off, and the PC hangs. 

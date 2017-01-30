@@ -1,0 +1,1 @@
+@ijansch that'll be the solution that spawns MySQL from inside Apache, making it almost impossible to secure via SELinux? 
